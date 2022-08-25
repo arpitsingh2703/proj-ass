@@ -1,0 +1,206 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(146, 210, 146);
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 200%;
+  font-weight: 700;
+  color: blue;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: 300;
+  line-height: 180%;
+  text-align: justify;
+  font-size: 140%;
+  color: black;
+}
+
+img {
+  text-align: center;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+}
+
+.intro {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background: url(./paradise_sea.jpg) center;
+  background-size: cover;
+  top: 0;
+  display: table;
+}
+
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+.content {
+  max-width: 600px;
+  margin: auto;
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 300%;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  padding: 2%;
+}
+.content p {
+  color: black;
+}
+.inner {
+  max-width: 600px;
+  margin: auto;
+  font-size: 170%;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+nav {
+  float: left;
+  padding: 5% 5% 0 0;
+  height: 100px;
+}
+nav ul {
+  list-style: none;
+  float: left;
+}
+nav ul li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 120%;
+}
+nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+  color: khaki;
+}
+nav ul,
+nav:active ul {
+  display: none;
+  padding: 8px 0;
+  width: 20%;
+  z-index: 1000;
+  left: 45px;
+}
+nav li {
+  width: 100%;
+  padding: 8px 0 10px 7px;
+  margin: 0;
+}
+nav:hover ul {
+  display: block;
+  position: absolute;
+}
+
+#menu-icon {
+  width: 30px;
+  height: 26px;
+  background: url(./nav-icon.png) center;
+  display: inline-block;
+  margin: 50px 0 0 50px;
+}
+
+.left-col {
+  width: 60%;
+  float: left;
+  margin: 4% 0 4% 4%;
+}
+.sidebar {
+  width: 26%;
+  float: left;
+  margin: 4%;
+}
+.one-third-port {
+  width: 29.333333%;
+  float: left;
+  padding: 2%;
+}
+.one-third-port img:hover {
+  opacity: 0.6;
+}
+.contact p {
+  text-align: center;
+  letter-spacing: 5px;
+}
+.clearfix {
+  clear: both;
+  height: 3%;
+}
+.break {
+  display: none;
+}
+.parallax {
+  background: url(./intro1.jpg) repeat fixed 100%;
+  opacity: 0.5;
+}
+.parallax-inner {
+  padding-top: 17%;
+}
+.social {
+  list-style-type: none;
+  text-align: center;
+}
+.social li {
+  display: inline;
+}
+.social i {
+  font: 300%;
+  margin: 1% 5% 7% 9%;
+  color: black;
+}
+.social i:hover {
+  color: grey;
+}
+footer.second {
+  background-color: aqua;
+}
+footer.second p {
+  color: black;
+  text-align: center;
+  padding: 5%;
+}
+
+@media screen and (max-width: 760px) {
+  #menu-icon {
+    margin: 26px 0 0 26px;
+  }
+  nav ul,
+  nav:active ul {
+    padding: 8px 0;
+    left: 23px;
+    top: 34px;
+    width: 50%;
+  }
+  .inner {
+    font-size: 120%;
+  }
+  .content h1 {
+    font-size: 180%;
+  }
+  p {
+    font-size: 120%;
+  }
+  h2 {
+    font-size: 160%;
+  }
+ 
+ 
+}
